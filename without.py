@@ -88,12 +88,12 @@ CorrectUsername = 'DARK'
 CorrectPassword = 'DEVIL'
 loop = 'true'
 while loop == 'true':
-    username = raw_input('\x1b[1;91m \x1b[1;91mTool Username \x1b[1;33m =>  \x1b[1;93m')
+    username = raw_input('\x1b[1;92m \x1b[1;92mTool Username \x1b[1;92m =>  \x1b[1;92m')
     if username == CorrectUsername:
-        password = raw_input('\x1b[1;94m \x1b[1;91mTool Password \x1b[1;36m =>  \x1b[1;92m')
+        password = raw_input('\x1b[1;92m \x1b[1;92mTool Password \x1b[1;92m =>  \x1b[1;92m')
         if password == CorrectPassword:
-            print 'Logged in successfully script kiddie  '
-            time.sleep(2)
+            print 'Logged in successfully'
+            time.sleep(1)
             loop = 'false'
         else:
             print '\x1b[1;92mWrong Password'
@@ -109,7 +109,7 @@ def lisensi():
 
 def login():
     os.system('clear')
-    print logo1
+    print'
     print '\x1b[1;92m[1]\x1b[1;92mStart cloning ( no login )'
     time.sleep(0.05)
     print '\x1b[1;92m[0]\x1b[1;92m Exit (Coming Soon)'
@@ -127,7 +127,7 @@ def pilih_login():
 
 def Zeek():
     os.system('clear')
-    print logo1
+    print'
     print '\x1b[1;92m[1]  Start Cracking'
     time.sleep(0.05)
     print '\x1b[1;92m[0] \x1b[1;92m Back'
@@ -144,7 +144,7 @@ def action():
         action()
     elif peak == '1':
         os.system('clear')
-        print logo2
+        print'
         print '\x1b[1;92mEnter any Pakistani Mobile code Number' + '\n'
         print '\x1b[1;92m Enter any code 1 to 49'
         try:
