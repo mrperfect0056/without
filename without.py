@@ -109,7 +109,6 @@ def lisensi():
 
 def login():
     os.system('clear')
-    print'
     print '\x1b[1;92m[1]\x1b[1;92mStart cloning ( no login )'
     time.sleep(0.05)
     print '\x1b[1;92m[0]\x1b[1;92m Exit (Coming Soon)'
@@ -127,7 +126,6 @@ def pilih_login():
 
 def Zeek():
     os.system('clear')
-    print'
     print '\x1b[1;92m[1]  Start Cracking'
     time.sleep(0.05)
     print '\x1b[1;92m[0] \x1b[1;92m Back'
@@ -144,7 +142,6 @@ def action():
         action()
     elif peak == '1':
         os.system('clear')
-        print'
         print '\x1b[1;92mEnter any Pakistani Mobile code Number' + '\n'
         print '\x1b[1;92m Enter any code 1 to 49'
         try:
