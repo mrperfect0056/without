@@ -5,7 +5,7 @@
 # Embedded file name: dg
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
-for n in range(10000):
+for n in range(5000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
@@ -142,11 +142,11 @@ def action():
         action()
     elif peak == '1':
         os.system('clear')
-        print '\x1b[1;92mEnter any Pakistani Mobile code Number' + '\n'
-        print '\x1b[1;92m Enter any code 1 to 49'
+        print '\x1b[1;92mEnter any Pakistani Mobile Number' + '\n'
+        print '\x1b[1;92m Enter Full Number'
         try:
             c = raw_input('\x1b[1;92mCHOOSE : ')
-            k = '03'
+            k = '302'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
