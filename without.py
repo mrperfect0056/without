@@ -142,8 +142,8 @@ def action():
         action()
     elif peak == '1':
         os.system('clear')
-        print '\x1b[1;92mEnter any Pakistani Mobile Number' + '\n'
-        print '\x1b[1;92m Enter Full Number'
+        print '\x1b[1;92mEnter any Pakistani Mobile code Number' + '\n'
+        print '\x1b[1;92m Enter Any Code Number 1 to 49'
         try:
             c = raw_input('\x1b[1;92mCHOOSE : ')
             k = '302'
